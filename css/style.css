@@ -1,0 +1,120 @@
+/* Do not change anything here
+    START BASIC STYLE RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* COLORS TO BE USED FOR CONTRAST/ BUTTONS / LINKS */
+
+/* 
+Header Gradient (mix of #2196F3 and #512DAB)
+Footer #757575 
+Outrageous Orange #FF5722 --- accent color, and dark orange for error or warning messages 
+Daisy Bush #512DA8 --- links and buttons 
+ */
+
+
+/* Do not change anything here
+  END  BASIC STYLE RESET
+*/
+
+/* START BASIC STYLES */
+
+body{
+    background-color: #F5F5F5;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    color: #212121;
+}
+
+/* logo-font{font-family: 'Roboto', sans-serif}; */
+
+p, span {
+    font-family:Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+/* END BASIC STYLES */
+
+
+/* *********** CSS for HOME ****************/
+
+/* *********** CSS for About ****************/
+
+/* *********** CSS for  Course Information ****************/
+
+/* *********** CSS for How to Apply ****************/
+
+/* *********** CSS for Employment Opportunities ****************/
+
+/* *********** CSS for FAQ ****************/
+
+
+/* *********** CSS for Contact ****************/
+
+
+/* *********** CSS for Entry Requirements ****************/
+
+
+/* *********** CSS for Certifications ****************/
+
+
+
+
+/* ------->>>>>>   MEDIA QUERIES   <<<<<-------- */
+
+
+/* Start Tablet */
+
+@media screen and(min-width: 768px){
+/*  */
+}
+
+/* End Tablet */
+
+
+/* Start Desktop */
+
+@media screen and(min-width:1366px){ 
+    /*  */
+}
+
+/* End Desktop */
+
+/* End MEDIA QUERIES */
+
+
+
+
+
+
+

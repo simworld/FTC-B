@@ -181,6 +181,45 @@ input.form-btn {
 /* *********** CSS for Certifications ****************/
 
 
+.certification, .certification-heading {
+	padding: 10px;
+}
+
+.certification ul {
+	list-style: disc;
+	padding-left: 15px;
+}
+
+.certification p, ul {
+	padding-bottom: 10px;
+}
+
+.certification-type{
+	font-weight: bold;
+}
+
+
+.certification-heading{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+  .certifications-info {
+	margin-bottom: 20px;
+  }
+  
+  /* .certification-image {
+	flex-basis: 20%;
+	display: none;
+  } */
+  
+  .certification-image img {
+	width: 100%;
+	height: auto;
+  }
+
 
 
 /* ------->>>>>>   MEDIA QUERIES   <<<<<-------- */
@@ -205,7 +244,41 @@ input.form-btn {
     width: 100%;
     object-fit: cover;
 }
+
+
+/* Certification Style */
+.certification-group1, .certification-group2 {
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.certification {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+    
+.certification-group1 .certifications-info, .certification-group2 .certifications-info {
+    width: 50%;
+    padding: 20px;
+}
+
+.certification-group3 {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .certification-group3 .certifications-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    }
+
+}
+
 
 /* End Tablet */
 
@@ -214,6 +287,13 @@ input.form-btn {
 
 @media screen and (min-width:1366px){ 
     /* CSS for Contact */
+
+/* Certification Style */
+    .certifications {
+		display: flex;
+		flex-direction: row;
+	}
+
 }
 
 /* End Desktop */
